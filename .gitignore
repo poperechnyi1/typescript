@@ -42,10 +42,6 @@ build/Release
 node_modules
 node_modules/
 jspm_packages/
-first_app/node_modules/
-maps/node_modules/
-nest/messages/node_modules/
-nest/nest-scratch/node_modules/
 
 
 # Snowpack dependency directory (https://snowpack.dev/)
