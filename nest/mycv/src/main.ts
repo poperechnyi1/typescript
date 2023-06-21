@@ -10,6 +10,7 @@ async function bootstrap() {
       keys: ['asdfasdf'],
     }),
   );
+  console.log('MAIN');
   app.useGlobalPipes(
     new ValidationPipe({
       whitelist: true,
