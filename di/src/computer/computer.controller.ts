@@ -4,19 +4,13 @@ import { DiskService } from '../disk/disk.service';
 
 @Controller('computer')
 export class ComputerController {
-  constructor (
+  constructor(
     private cpuService: CpuService,
-    private diskService: DiskService
+    private diskService: DiskService,
   ) {}
 
   @Get()
   run() {
-    return [
-      this.cpuService.compute(1,2),
-      this.diskService.getData()
-
-    ]
+    return [this.cpuService.compute(1, 2), this.diskService.getData()];
   }
-
-
 }
